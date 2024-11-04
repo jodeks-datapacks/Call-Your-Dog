@@ -12,10 +12,6 @@ scoreboard objectives remove check.callyourdog
 
 scoreboard objectives remove use_goat_horn_dog 
 
-scoreboard objectives remove get_horn_to_call_dog 
-
-scoreboard objectives remove change_goat_horn_to_call_dog 
-
 scoreboard objectives remove store_position.callyourdog
 
 
