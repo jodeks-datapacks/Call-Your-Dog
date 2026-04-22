@@ -1,1 +1,0 @@
-$execute as @e[predicate=call_your_horse:callable,nbt={UUID:$(UUID_from_item)}] unless entity @s[predicate=call_your_horse:callable_without_owner] unless entity @s[predicate=call_your_horse:no_player_on_mount] run data modify entity @s[nbt={UUID:$(UUID_from_item)}] home_radius set value -1

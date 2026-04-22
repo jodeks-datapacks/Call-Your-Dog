@@ -1,8 +1,8 @@
 {
-  "modrinth_id": "QuDyXDNw",
-  "curseforge_id": "1426187",
-  "curseforge_mod_id": "1426188",
-  "curseforge_slug": "call-your-horse",
+  "modrinth_id": "hKvEWvVF",
+  "curseforge_id": "1496012",
+  "curseforge_mod_id": "1496013",
+  "curseforge_slug": "call-your-dog",
   "loaders": ["datapack"],
   "game_versions": [
     ">=1.21.6"
@@ -12,5 +12,5 @@
     "datapack": ["5555ff-lib(required){modrinth:Lr1LVAwO}{curseforge:1495266}"],
     "mod": ["5555ff-lib(required){modrinth:Lr1LVAwO}{curseforge:1495273}"]
   },
-  "discord_role_id": "1282637474639904820"
+  "discord_role_id": "1419684529538338816"
 }

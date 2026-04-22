@@ -1,5 +1,3 @@
 {
-  "values": [
-    "call_your_horse:app/main"
-  ]
+  "values": ["call_your_dog:app/main"]
 }

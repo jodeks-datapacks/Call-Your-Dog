@@ -29,7 +29,7 @@
               "type": "minecraft:score",
               "target": {
                 "type": "minecraft:fixed",
-                "name": "&call_your_horse_advancements"
+                "name": "&call_your_dog_advancements"
               },
               "score": "jodek.config"
             },

@@ -6,12 +6,12 @@
     "supported_formats": [80, 999],
     "description": [
       {
-        "text": "\"Call Your Horse\" (call_your_horse)"
+        "text": "\"Call Your Dog\" (call_your_dog)"
       },
       "\n",
       {
-        "translate": "call_your_horse.description",
-        "fallback": "Call your horse with a goat horn",
+        "translate": "call_your_dog.description",
+        "fallback": "Call your dog with a goat horn",
         "color": "#aaaaaa"
       },
       "\n\n",

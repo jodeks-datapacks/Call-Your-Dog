@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "Call Your Dog                     ",
+    "description": [
+      {
+        "translate": "call_your_dog.description",
+        "fallback": "Call your dog with a goat horn",
+        "color": "white"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "/trigger call_your_dog.config",
+        "color": "yellow"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "call_your_dog.usage",
+        "fallback": "Sneak with a goat horn while looking at a tamed + named dog",
+        "color": "white"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "/trigger call_your_dog.config",
+        "color": "yellow"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "jodek.datapack_version",
+        "fallback": "Datapack version: ",
+        "color": "dark_green"
+      },
+      {
+        "text": "v2.0.3",
+        "color": "green"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "modrinth.com/datapack/call-your-dog",
+        "color": "dark_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "jodek:pets",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&call_your_dog_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
+    }
+  }
+}
