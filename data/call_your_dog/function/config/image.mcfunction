@@ -16,7 +16,7 @@ function call_your_dog:image/set_image_data {\
     {text: "Call Your Dog"},\
     {translate: "call_your_dog.description", fallback: "Easily call your dog with a goat horn"},\
     "",\
-    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.0.3", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v2.0.0", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/call-your-dog", color: "#a800a8"},\
