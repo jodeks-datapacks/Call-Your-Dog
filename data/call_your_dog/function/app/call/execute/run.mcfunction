@@ -6,8 +6,6 @@ $execute if score &teleported call_your_dog.check matches 0 as @e[predicate=jode
 
 execute if score &time_since_goat_horn_use call_your_dog.check matches 10 run function call_your_dog:app/call/execute/post/forceload_remove with storage call_your_dog:root data
 
-execute if score &time_since_goat_horn_use call_your_dog.check matches 10 run function call_your_dog:app/call/execute/post/remove_home_pos with storage call_your_dog:root data
-
 $execute as @a[nbt={UUID:$(UUID)},limit=1] if score &time_since_goat_horn_use call_your_dog.check matches 12 \
  if score &teleported call_your_dog.check matches 0 \ 
   run function call_your_dog:app/feedback/fail_latest_pos {translate:"call_your_dog.fail.teleport_failed",fallback:"Couldn't find dog",latest_position_x:"$(latest_position_x)",latest_position_z:"$(latest_position_z)"}
