@@ -1,20 +1,17 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type_specific": {
-        "type": "minecraft:player",
-        "looking_at": {
-          "type": "wolf",
-          "distance": {
-            "absolute": {
-              "min": 0,
-              "max": 10
-            }
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+      "looking_at": {
+        "minecraft:entity_type": "minecraft:wolf",
+        "minecraft:distance": {
+          "absolute": {
+            "min": 0,
+            "max": 10
           }
         }
       }
     }
   }
-]
+}

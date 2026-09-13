@@ -1,4 +1,4 @@
-$tag @e[predicate=call_your_dog:callable,tag=jodek.can_be_called,nbt={UUID:$(UUID_from_item)}] remove jodek.can_be_called
+$tag @e[predicate=jodek:call_your/dog,tag=jodek.can_be_called,nbt={UUID:$(UUID_from_item)}] remove jodek.can_be_called
 
 $data remove storage call_your_dog:root data.dog_Pos."$(UUID_from_item).x"
 
