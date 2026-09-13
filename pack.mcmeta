@@ -8,12 +8,6 @@
       {
         "text": "\"Call Your Dog\" (call_your_dog)"
       },
-      "\n",
-      {
-        "translate": "call_your_dog.description",
-        "fallback": "Call your dog with a goat horn",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -23,10 +17,9 @@
         "text": " "
       },
       {
-        "text": "2.1.0",
+        "text": "2.2.0",
         "color": "#55ff55"
       },
-
       "\n",
       {
         "translate": "jodek.by",
